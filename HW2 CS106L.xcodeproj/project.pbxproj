@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5A642F1735C02500C66BE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A642D1735C02500C66BE8 /* main.cpp */; };
 		3F7003C61735BA2800438AE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7003C51735BA2800438AE1 /* UIKit.framework */; };
 		3F7003C81735BA2800438AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7003C71735BA2800438AE1 /* Foundation.framework */; };
 		3F7003CA1735BA2800438AE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7003C91735BA2800438AE1 /* CoreGraphics.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5A642D1735C02500C66BE8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3F5A642E1735C02500C66BE8 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		3F7003C21735BA2800438AE1 /* HW2 CS106L.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW2 CS106L.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7003C51735BA2800438AE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F7003C71735BA2800438AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +95,8 @@
 		3F7003B91735BA2800438AE1 = {
 			isa = PBXGroup;
 			children = (
+				3F5A642D1735C02500C66BE8 /* main.cpp */,
+				3F5A642E1735C02500C66BE8 /* main.h */,
 				3F7003CB1735BA2800438AE1 /* HW2 CS106L */,
 				3F7003F51735BA2800438AE1 /* HW2 CS106LTests */,
 				3F7003C41735BA2800438AE1 /* Frameworks */,
@@ -283,6 +288,7 @@
 				3F7003D61735BA2800438AE1 /* AppDelegate.m in Sources */,
 				3F7003E51735BA2800438AE1 /* MasterViewController.m in Sources */,
 				3F7003E81735BA2800438AE1 /* DetailViewController.m in Sources */,
+				3F5A642F1735C02500C66BE8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +373,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx10.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -392,7 +398,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx10.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -473,6 +479,7 @@
 				3F7004021735BA2900438AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7004031735BA2900438AE1 /* Build configuration list for PBXNativeTarget "HW2 CS106LTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +488,7 @@
 				3F7004051735BA2900438AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
